@@ -1,0 +1,29 @@
+{
+  "name": "kyle-chalmers",
+  "owner": { "name": "Kyle Chalmers", "url": "https://github.com/kyle-chalmers" },
+  "metadata": {
+    "description": "Kyle Chalmers' Claude Code plugins for disciplined data work: ticket-driven analysis, orchestration-job governance, Streamlit-in-Snowflake apps, and data+AI security auditing."
+  },
+  "plugins": [
+    {
+      "name": "ticketwright",
+      "source": { "source": "github", "repo": "kyle-chalmers/ticketwright" },
+      "description": "Ticket-driven data work with one front door: /ticket opens, primes, and routes; /review QC-gates; /ship hard-halts before external posts. Prior-art recall + self-maintaining catalog, stdlib-only."
+    },
+    {
+      "name": "jobwright",
+      "source": { "source": "github", "repo": "kyle-chalmers/jobwright" },
+      "description": "Govern, validate, and safely ship data-orchestration jobs (Databricks, Airflow, dbt, Snowflake Tasks): jobs catalog, architecture-compliance scanning, live-vs-repo drift detection, and a deploy-safety guard."
+    },
+    {
+      "name": "streamsnow",
+      "source": { "source": "github", "repo": "kyle-chalmers/streamsnow" },
+      "description": "Build, govern, and ship Streamlit-in-Snowflake apps: scaffolding, data-governance guardrails, local preview, validation, parallel review, and a gated deploy path."
+    },
+    {
+      "name": "ai-data-security",
+      "source": { "source": "github", "repo": "kyle-chalmers/ai-data-security" },
+      "description": "Data + AI security auditing: secrets exposure matrix, AI tool config audit, four-tier data classification, and AI-principal database access audit — deterministic script verdicts, read-only, cited findings."
+    }
+  ]
+}
