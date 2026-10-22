@@ -1,5 +1,7 @@
 # kyle-chalmers — Claude Code plugin marketplace
 
+> **New catalog:** Discover portable skills and the data workflow suites in [kyle-chalmers-skills](https://github.com/kyle-chalmers/kyle-chalmers-skills). This marketplace keeps its existing `kyle-chalmers` identifier for compatibility. Existing suite installation commands continue to work.
+
 One `marketplace add` for the whole family of data-discipline plugins:
 
 ```
